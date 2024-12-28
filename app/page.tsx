@@ -11,7 +11,7 @@ export default function Home() {
       <main className="space-y-12">
         <section>
           <h2 className="text-2xl font-bold mb-4 border-b-2 border-black pb-2">About Me</h2>
-          <p>I'm currently a senior engineer on Coinbase's Machine Learning Platform team. In my free time, I enjoy playing tennis, acoustic guitar, reading, and building things.</p>
+          <p>I&apos;m currently a senior engineer on Coinbase&apos;s Machine Learning Platform team. In my free time, I enjoy playing tennis, acoustic guitar, reading, and building things.</p>
         </section>
 
         <section>
@@ -38,7 +38,7 @@ export default function Home() {
 
         <section>
           <h2 className="text-2xl font-bold mb-4 border-b-2 border-black pb-2">Favorite Read</h2>
-          <p>Ted Chiang's <i>A Story of Your Life and Others</i></p>
+          <p>Ted Chiang&apos;s <i>A Story of Your Life and Others</i></p>
         </section>
 
         <section>
