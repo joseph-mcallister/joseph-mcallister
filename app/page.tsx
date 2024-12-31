@@ -37,6 +37,14 @@ export default function Home() {
         </section>
 
         <section>
+          <h2 className="text-2xl font-bold mb-4 border-b-2 border-black pb-2">What I&apos;m Playing Around With Now</h2>
+          <ul className="list-disc list-inside space-y-2">
+            <li>On-device TTS and LLM inference, especially on tiny devices like a Raspberry Pi</li>
+            <li>Some robotics noob projects...think stuff that requires a servo</li>
+          </ul>
+        </section>
+
+        <section>
           <h2 className="text-2xl font-bold mb-4 border-b-2 border-black pb-2">Favorite Read</h2>
           <p>Ted Chiang&apos;s <i>A Story of Your Life and Others</i></p>
         </section>
