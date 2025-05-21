@@ -25,6 +25,22 @@ export default function Home() {
         </section>
 
         <section>
+          <h2 className="text-2xl font-bold mb-4 border-b-2 border-black pb-2">Recent Projects</h2>
+          <ul className="list-disc list-inside space-y-2">
+            <li>
+              <Link href="https://www.coinbase.com/blog/how-coinbase-builds-sequence-features-for-machine-learning" className="underline" target="_blank" rel="noopener noreferrer">
+                How Coinbase Builds Sequence Features for Machine Learning
+              </Link>
+            </li>
+            <li>
+              <Link href="https://llmgame.ai" className="underline" target="_blank" rel="noopener noreferrer">
+                llmgame.ai
+              </Link> a simple browser-based game
+            </li>
+          </ul>
+        </section>
+
+        <section>
           <h2 className="text-2xl font-bold mb-4 border-b-2 border-black pb-2">How I Learned to Code</h2>
           <p className="mb-4">I love building things, which started with a few projects in high school and college:</p>
           <ul className="list-disc list-inside space-y-2">
@@ -40,7 +56,7 @@ export default function Home() {
           <h2 className="text-2xl font-bold mb-4 border-b-2 border-black pb-2">What I&apos;m Playing Around With Now</h2>
           <ul className="list-disc list-inside space-y-2">
             <li>On-device TTS and LLM inference, especially on tiny devices like a Raspberry Pi</li>
-            <li>Some robotics noob projects...think stuff that requires a servo</li>
+            <li>Making my PiCar-X smarter</li>
           </ul>
         </section>
 
