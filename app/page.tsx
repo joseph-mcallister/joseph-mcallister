@@ -33,9 +33,9 @@ export default function Home() {
               </Link>
             </li>
             <li>
-              <Link href="https://llmgame.ai" className="underline" target="_blank" rel="noopener noreferrer">
+              A simple browser-based game: <Link href="https://llmgame.ai" className="underline" target="_blank" rel="noopener noreferrer">
                 llmgame.ai
-              </Link> a simple browser-based game
+              </Link>
             </li>
           </ul>
         </section>
