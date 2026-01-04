@@ -11,7 +11,8 @@ export default function Home() {
       <main className="space-y-12">
         <section>
           <h2 className="text-2xl font-bold mb-4 border-b-2 border-black pb-2">About Me</h2>
-          <p>I&apos;m currently a senior engineer on Coinbase&apos;s Machine Learning Platform team. In my free time, I enjoy playing tennis, acoustic guitar, reading, and building things.</p>
+          <p>I&apos;m currently building something new and will be in the Bay Area through April 2026 👀</p>
+          <p>In my free time, I enjoy playing Padel, guitar, reading, and building things.</p>
         </section>
 
         <section>
@@ -28,13 +29,20 @@ export default function Home() {
           <h2 className="text-2xl font-bold mb-4 border-b-2 border-black pb-2">Recent Projects</h2>
           <ul className="list-disc list-inside space-y-2">
             <li>
-              <Link href="https://www.coinbase.com/blog/how-coinbase-builds-sequence-features-for-machine-learning" className="underline" target="_blank" rel="noopener noreferrer">
-                How Coinbase Builds Sequence Features for Machine Learning
+              A simple browser-based game inspired by the Wikipedia Game: <Link href="https://llmgame.ai" className="underline" target="_blank" rel="noopener noreferrer">
+                llmgame.ai
               </Link>
+              <ul className="list-disc list-inside ml-6 mt-1">
+                <li>
+                  And for when my credits are out, a version that runs entirely in the browser using a 0.5B fine-tuned LLM: <Link href="https://llmgame.ai/?useLocal=true" className="underline" target="_blank" rel="noopener noreferrer">
+                    llmgame.ai/?useLocal=true
+                  </Link>
+                </li>
+              </ul>
             </li>
             <li>
-              A simple browser-based game: <Link href="https://llmgame.ai" className="underline" target="_blank" rel="noopener noreferrer">
-                llmgame.ai
+              <Link href="https://www.coinbase.com/blog/how-coinbase-builds-sequence-features-for-machine-learning" className="underline" target="_blank" rel="noopener noreferrer">
+                How Coinbase Builds Sequence Features for Machine Learning
               </Link>
             </li>
           </ul>
@@ -49,14 +57,6 @@ export default function Home() {
             <li>A DIY solar-powered, night-vision trailcam running on a Raspberry Pi to capture wildlife at night</li>
             <li>Facial recognition program running on-device with a Raspberry Pi</li>
             <li>An ML model to predict professional tennis match outcomes</li>
-          </ul>
-        </section>
-
-        <section>
-          <h2 className="text-2xl font-bold mb-4 border-b-2 border-black pb-2">What I&apos;m Playing Around With Now</h2>
-          <ul className="list-disc list-inside space-y-2">
-            <li>On-device TTS and LLM inference, especially on tiny devices like a Raspberry Pi</li>
-            <li>Making my PiCar-X smarter</li>
           </ul>
         </section>
 
