@@ -12,6 +12,7 @@ export default function Home() {
         <section>
           <h2 className="text-2xl font-bold mb-4 border-b-2 border-black pb-2">About Me</h2>
           <p>I&apos;m currently building something new and will be in the Bay Area through April 2026 👀</p>
+
           <p>In my free time, I enjoy playing Padel, guitar, reading, and building things.</p>
         </section>
 
@@ -32,13 +33,11 @@ export default function Home() {
               A simple browser-based game inspired by the Wikipedia Game: <Link href="https://llmgame.ai" className="underline" target="_blank" rel="noopener noreferrer">
                 llmgame.ai
               </Link>
-              <ul className="list-disc list-inside ml-6 mt-1">
-                <li>
-                  And for when my credits are out, a version that runs entirely in the browser using a 0.5B fine-tuned LLM: <Link href="https://llmgame.ai/?useLocal=true" className="underline" target="_blank" rel="noopener noreferrer">
-                    llmgame.ai/?useLocal=true
-                  </Link>
-                </li>
-              </ul>
+            </li>
+            <li>
+              And for when my credits are out, a version that runs entirely in the browser using a 0.5B fine-tuned LLM: <Link href="https://llmgame.ai/?useLocal=true" className="underline" target="_blank" rel="noopener noreferrer">
+                llmgame.ai/?useLocal=true
+              </Link>
             </li>
             <li>
               <Link href="https://www.coinbase.com/blog/how-coinbase-builds-sequence-features-for-machine-learning" className="underline" target="_blank" rel="noopener noreferrer">
