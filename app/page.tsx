@@ -11,9 +11,7 @@ export default function Home() {
       <main className="space-y-12">
         <section>
           <h2 className="text-2xl font-bold mb-4 border-b-2 border-black pb-2">About Me</h2>
-          <p>I&apos;m currently building something new and will be in the Bay Area through April 2026 👀</p>
-
-          <p>In my free time, I enjoy playing Padel, guitar, reading, and building things.</p>
+          <p>I&apos;m currently building something new and will be in the Bay Area through April 2026. In my free time, I enjoy playing Padel, guitar, reading, and building things.</p>
         </section>
 
         <section>
